@@ -10,7 +10,6 @@
     "dev": "run-p dev:*",
     "build": "run-p build:*",
     "start": "run-p start:*",
-
     "dev:next": "next",
     "dev:backpack": "backpack",
     "build:next": "next build",
@@ -21,7 +20,8 @@
   "dependencies": {
     "backpack-core": "^0.0.7",
     "express": "^4.14.0",
-    "next": "^1.2.3"
+    "next": "^1.2.3",
+    "webpack": "2"
   },
   "devDependencies": {
     "npm-run-all": "^4.0.1"
