@@ -1,0 +1,29 @@
+{
+  "name": "next-backpack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "engines": {
+    "node": "7.2.0"
+  },
+  "scripts": {
+    "dev": "run-p dev:*",
+    "build": "run-p build:*",
+    "start": "run-p start:*",
+
+    "dev:next": "next",
+    "dev:backpack": "backpack",
+    "build:next": "next build",
+    "build:backpack": "backpack build",
+    "start:next": "next start",
+    "start:backpack": "node ./build/main.js"
+  },
+  "dependencies": {
+    "backpack-core": "^0.0.7",
+    "express": "^4.14.0",
+    "next": "^1.2.3"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.0.1"
+  }
+}
