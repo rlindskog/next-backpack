@@ -3,8 +3,6 @@
 <img height="100" alt="screen shot 2016-10-25 at 2 37 27 pm" src="https://cloud.githubusercontent.com/assets/4060187/21872211/318795e8-d835-11e6-8376-bea370605361.png">
 </div>
 
-PREFACE: I did virtually no work getting this setup up and running.  This is just an example repo of how well Next and Backpack work together.
-
 Out of the box, this example includes 
 
  1. Universal es2015 JS
